@@ -1,20 +1,55 @@
-form{
+
+img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+}
+H1{
+    color: #6A58CE;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}    
+
+form {
     background-color: #6A58CE;
-    border-style: solid;
     border: 1px;
     width: 60%;
     height: 50%;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-right: 2%;
-    padding-bottom: 2%;
+    margin-left: 240px;
     
-    margin-left: 250px;
+}
+
+label{
+   display: inline-block; 
+   width: 230px;
+   margin: 10px;
+   color: white;
+   
+}
+
+table{
+    display: inline-block;
+    width: 230px;
+    margin: 10px;
+    color: white;
+    
+    
+}
+
+input{
+    height: 22px;
+    width: 120px;
   
 }
-input:hover{
-    background-color: green;
+
+div{
+        
+    
+    margin-left: 300px;
+    
 }
-button:active{
-    background-color: blue;
-}
+
+
